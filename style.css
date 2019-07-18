@@ -3,6 +3,7 @@ a:hover{
 }
 body{
     font-weight: 200;
+    scroll-behavior: smooth;
 }
 .gradient{
     background: linear-gradient(to right, #753A88 0%, #CC2B5E 100%);
@@ -55,7 +56,10 @@ body{
     line-height: 3rem;
 }
 .main-color{
-    color: #F36;
+    color: #F36 !important;
+}
+.main-background{
+    background-color: #F36 !important;
 }
 .dark-background{
     background-color: #333;
@@ -78,4 +82,28 @@ body{
 .date{
     font-size: 1rem;
     color: white;
+}
+.white{
+    color: white;
+}
+.bottom-gradient{
+    background: linear-gradient(to bottom, #333 0%, #333 8%, #F36 100%);
+}
+.heading{
+    font-size: 4rem;
+}
+.border-5{
+    border-radius: 5rem;
+}
+.border-2{
+    border-radius:2.5rem;
+}
+.favicon-font{
+    font-size:2rem;
+}
+.white-background{
+    background-color: #ffffff;
+}
+.black-color{
+    color: black !important;
 }
