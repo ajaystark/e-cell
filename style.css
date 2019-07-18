@@ -1,0 +1,81 @@
+a:hover{
+    text-decoration: none;
+}
+body{
+    font-weight: 200;
+}
+.gradient{
+    background: linear-gradient(to right, #753A88 0%, #CC2B5E 100%);
+
+}
+.border-50{
+    border-radius: 50%;
+}
+.logo{
+    height: 150px;
+    width: 150px;
+}
+.link-button{
+    background: #ff0066;
+    font-size: 1.5rem;
+    color: #ffffff;
+    border-radius: 1rem;
+    font-weight: 200;
+    overflow:hidden;
+}
+.title{
+    font-size: 4rem;
+    color: #ffffff;
+}
+.subtitle{
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+.dark{
+    background:	 #4F4F4F;
+}
+.pill{
+    border-radius: 1rem;
+}
+.link-icons{
+    background: rgb(50,50,50);
+    border-radius: 50%;
+    color:#ffffff; 
+}
+.main-photo{
+    background: url("images/iiitd.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.top-left{
+    position: absolute;
+    top: 20rem;
+    left: 2rem;
+    line-height: 3rem;
+}
+.main-color{
+    color: #F36;
+}
+.dark-background{
+    background-color: #333;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5), 0 2px 4px 0 rgba(0,0,0,0.5);
+}
+.events {
+    box-sizing: border-box;
+    border-radius: 5rem;
+    background-color: #4F4F4F;
+    border: 1px solid #F36;
+}
+.event-header{
+    font-size: 2rem; 
+    color:white;
+}
+.event-description{
+    font-size: 1.5rem;
+    color: white;
+}
+.date{
+    font-size: 1rem;
+    color: white;
+}
